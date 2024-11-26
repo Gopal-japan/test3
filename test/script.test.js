@@ -7,7 +7,7 @@ test('add should return the sum of two numbers', () => {
 });
 
 test('subtract should return the difference between two numbers', () => {
-  expect(subtract(5, 3)).toBe(1);
+  expect(subtract(5, 3)).toBe(2);
   expect(subtract(3, 5)).toBe(-2);
   expect(subtract(-1, 1)).toBe(-2);
 });
