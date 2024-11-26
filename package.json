@@ -1,0 +1,19 @@
+{
+  "name": "sample-demo",
+  "version": "1.0.0",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "mkdir -p build && rsync -av --exclude build/ ./ build/ && echo 'Static files are in build/'", 
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
